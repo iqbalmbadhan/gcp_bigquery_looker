@@ -7,6 +7,7 @@ from google.cloud import bigquery
 # Construct a BigQuery client object.
 client = bigquery.Client()
 
+# We have to cahnge the table id and database id here
 stage_table_id = "bigquery-440520.sample_pipeline.employee_stage"
 table_id = "bigquery-440520.sample_pipeline.employee"
 
